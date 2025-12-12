@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Project 2</title>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Mini Project 2</h1>
+    <p>HTML5 Simple Web Page</p>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <a href="#media">Media</a> |
+    <a href="#table">Timetable</a> |
+    <a href="#form">Registration</a>
+</nav>
+
+<!-- Main Content -->
+<main>
+
+    <!-- Article + Aside -->
+    <section>
+        <article>
+            <h2>About This Project</h2>
+            <p>This mini project demonstrates basic HTML5 elements like audio, video, table, and forms.</p>
+        </article>
+
+        <aside>
+            <p><b>Note:</b> Keep audio.mp3 and video.mp4 in the same folder for this page to work.</p>
+        </aside>
+    </section>
+
+    <!-- Media -->
+    <section id="media">
+        <h2>Media Section</h2>
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <h3>Video</h3>
+        <video width="350" controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- Table -->
+    <section id="table">
+        <h2>Simple Timetable</h2>
+
+        <table border="1" cellpadding="8">
+            <tr>
+                <th>Day</th>
+                <th>Subject</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>HTML</td>
+                <td>10:00 AM</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>CSS</td>
+                <td>11:00 AM</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="form">
+        <h2>Registration Form</h2>
+
+        <form>
+            <label>Name:</label>
+            <input type="text" required><br><br>
+
+            <label>Email:</label>
+            <input type="email" required><br><br>
+
+            <label>Course:</label>
+            <select>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+            </select><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>Mini Project 2 • Created by Tejasv</p>
+</footer>
+
+</body>
+</html>
